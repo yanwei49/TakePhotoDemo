@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A29A694B93CCE822E249E69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE176BB5758E02DE2F2AD26 /* libPods.a */; };
+		77295BC61B4665D700293035 /* TLAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77295BC11B4665D700293035 /* TLAlbumCollectionViewCell.m */; };
+		77295BC71B4665D700293035 /* TLPhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77295BC31B4665D700293035 /* TLPhotoAlbumViewController.m */; };
+		77295BC81B4665D700293035 /* TLPhotoDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77295BC51B4665D700293035 /* TLPhotoDisplayViewController.m */; };
 		773758CF1B4663D300D89E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773758CE1B4663D300D89E6E /* main.m */; };
 		773758D21B4663D300D89E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773758D11B4663D300D89E6E /* AppDelegate.m */; };
 		773758D51B4663D300D89E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773758D41B4663D300D89E6E /* ViewController.m */; };
@@ -27,6 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE176BB5758E02DE2F2AD26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		317849AE3FF064F9642B126E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3287413849747CE6DC6912CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		77295BC01B4665D700293035 /* TLAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLAlbumCollectionViewCell.h; path = SelectedMorePicture/TLAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		77295BC11B4665D700293035 /* TLAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLAlbumCollectionViewCell.m; path = SelectedMorePicture/TLAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		77295BC21B4665D700293035 /* TLPhotoAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLPhotoAlbumViewController.h; path = SelectedMorePicture/TLPhotoAlbumViewController.h; sourceTree = "<group>"; };
+		77295BC31B4665D700293035 /* TLPhotoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLPhotoAlbumViewController.m; path = SelectedMorePicture/TLPhotoAlbumViewController.m; sourceTree = "<group>"; };
+		77295BC41B4665D700293035 /* TLPhotoDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLPhotoDisplayViewController.h; path = SelectedMorePicture/TLPhotoDisplayViewController.h; sourceTree = "<group>"; };
+		77295BC51B4665D700293035 /* TLPhotoDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLPhotoDisplayViewController.m; path = SelectedMorePicture/TLPhotoDisplayViewController.m; sourceTree = "<group>"; };
+		77295BCA1B46676700293035 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		773758C91B4663D300D89E6E /* TakePhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		773758CD1B4663D300D89E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		773758CE1B4663D300D89E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A29A694B93CCE822E249E69 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +75,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53948F4EA24E585430774FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				317849AE3FF064F9642B126E /* Pods.debug.xcconfig */,
+				3287413849747CE6DC6912CD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77295BC91B4665DB00293035 /* TLMorePicture */ = {
+			isa = PBXGroup;
+			children = (
+				77295BC01B4665D700293035 /* TLAlbumCollectionViewCell.h */,
+				77295BC11B4665D700293035 /* TLAlbumCollectionViewCell.m */,
+				77295BC21B4665D700293035 /* TLPhotoAlbumViewController.h */,
+				77295BC31B4665D700293035 /* TLPhotoAlbumViewController.m */,
+				77295BC41B4665D700293035 /* TLPhotoDisplayViewController.h */,
+				77295BC51B4665D700293035 /* TLPhotoDisplayViewController.m */,
+			);
+			name = TLMorePicture;
+			sourceTree = "<group>";
+		};
 		773758C01B4663D300D89E6E = {
 			isa = PBXGroup;
 			children = (
+				77295BCA1B46676700293035 /* Prefix.pch */,
+				77295BC91B4665DB00293035 /* TLMorePicture */,
 				773758CB1B4663D300D89E6E /* TakePhotoDemo */,
 				773758E51B4663D400D89E6E /* TakePhotoDemoTests */,
 				773758CA1B4663D300D89E6E /* Products */,
+				53948F4EA24E585430774FE7 /* Pods */,
+				A435F64558FB93FACA6F6B5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +160,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A435F64558FB93FACA6F6B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE176BB5758E02DE2F2AD26 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 773758EC1B4663D400D89E6E /* Build configuration list for PBXNativeTarget "TakePhotoDemo" */;
 			buildPhases = (
+				B16FEDB4BF392B8E7760E90B /* Check Pods Manifest.lock */,
 				773758C51B4663D300D89E6E /* Sources */,
 				773758C61B4663D300D89E6E /* Frameworks */,
 				773758C71B4663D300D89E6E /* Resources */,
+				ADEB80E042F23C69ED2C0D66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,7 +215,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "颜魏";
+				ORGANIZATIONNAME = "&#39068;&#39759;";
 				TargetAttributes = {
 					773758C81B4663D300D89E6E = {
 						CreatedOnToolsVersion = 6.4;
@@ -214,6 +265,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADEB80E042F23C69ED2C0D66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16FEDB4BF392B8E7760E90B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		773758C51B4663D300D89E6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +305,9 @@
 			files = (
 				773758D51B4663D300D89E6E /* ViewController.m in Sources */,
 				773758D21B4663D300D89E6E /* AppDelegate.m in Sources */,
+				77295BC61B4665D700293035 /* TLAlbumCollectionViewCell.m in Sources */,
+				77295BC71B4665D700293035 /* TLPhotoAlbumViewController.m in Sources */,
+				77295BC81B4665D700293035 /* TLPhotoDisplayViewController.m in Sources */,
 				773758CF1B4663D300D89E6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +434,10 @@
 		};
 		773758ED1B4663D400D89E6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317849AE3FF064F9642B126E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				INFOPLIST_FILE = TakePhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +446,10 @@
 		};
 		773758EE1B4663D400D89E6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3287413849747CE6DC6912CD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				INFOPLIST_FILE = TakePhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +509,7 @@
 				773758EE1B4663D400D89E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		773758EF1B4663D400D89E6E /* Build configuration list for PBXNativeTarget "TakePhotoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +518,7 @@
 				773758F11B4663D400D89E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
